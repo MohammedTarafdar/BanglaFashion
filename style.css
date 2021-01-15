@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #e6e6e6;
+    background-color: #8d8d8d;
 }
 
 #main-body{
@@ -18,7 +18,11 @@ body{
     background-color: #fffbf0;
     width: 1200px;
     max-width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.banner-img{
+    height: 300px;
 }
 .main-section{
     width: 1200px;
@@ -37,6 +41,12 @@ body{
     height: 70px;
     
 }
+
+.delivery-img{
+    height: 270px; 
+    width: 350px;
+    margin-top: 50px;
+}
 .card-footer{
     background-color: white;
     border: 0;
@@ -44,9 +54,6 @@ body{
 .cart-image{
     background-color: #95ae30;
     height: 20px;
-}
-#about-us{
-    grid-template-columns: repeat(2, 1fr);
 }
 
 /*  color */
@@ -67,18 +74,43 @@ body{
     margin: 10px;
 }
 @media (max-width: 992px){
-    .header-area{
-        
-        grid-template-columns: repeat(2, 1fr);
+    
+    .banner-img{
+        height: 250px;
     }
-
+    .item-img{
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .delivery-img{
+        height: 200px; 
+        width: 250px;
+        margin-top: 30px;
+    }
 
 }
 @media (max-width: 668px){
-    #about-us{
-        grid-template-columns: repeat(2, 1fr);
+    
+    .banner-img{
+        height: 200px;
     }
-
+    .service-img{
+        height: 40px;
+        
+    }
+    .item-img{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .delivery-img{
+        height: 150px; 
+        width: 180px;
+        margin-top: 20px;
+    }
+    
+    
     
 
 }
